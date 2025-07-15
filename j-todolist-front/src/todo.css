@@ -1,0 +1,85 @@
+/* 기본 배경 및 폰트 설정 */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 전체 컨테이너 */
+div {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* 헤더 부분 */
+header {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+header input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+}
+
+header button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+header button:hover {
+    background-color: #555;
+}
+
+/* 테이블 스타일 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+td button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #999;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+td button:hover {
+    background-color: #666;
+}
+
+/* 체크박스 커스텀 스타일은 기본 사용 */
+input[type="checkbox"] {
+    transform: scale(1.2);
+}
