@@ -1,6 +1,6 @@
-import React, { useEffect, useRef, useState } from 'react';
-import api from './api/axios';
+import { useEffect, useState } from 'react';
 import { reqDeleteAll, reqDeleteOne, reqGetList, reqModify, reqRegister } from './api/todoApi';
+import './todo.css';
 
 function Todo(props) {
     const [ todos, setTodos ] = useState([]);
